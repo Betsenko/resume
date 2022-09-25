@@ -1,0 +1,222 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #E5E5E5;
+}
+:root {
+    --primary-text-color:#595959;
+    --secondary-text-color:#000000;
+    --accent-text-color:#FB6D3A;
+}
+
+h3 {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+}
+h4 {
+    margin-top: 0px;
+}
+
+ol {
+    
+    margin-left: 17px;
+    padding-left: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height:1.7;
+}
+
+
+p{
+    margin-top: 0px;
+}
+
+li::marker {
+    color: #FB6D3A;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #ffff;
+    margin: 40px auto;
+}
+
+
+/* ==========ABOUT ME SECTION======== */
+
+.section {
+  padding: 63px 85px 107px 88px;
+}
+.about-me-section {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+.main-title {
+    margin-top: 0px;
+    margin-bottom: 27px;
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.name {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+
+/* ===========PROJECT======== */
+.progect {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.progect:hover {
+    color:#06daff
+}
+
+
+.dot-color {
+ color: var(--primary-text-color);
+}
+.my-work {
+    margin-bottom: 8px;
+}
+
+/* ========WORK EXPERIENCE========== */
+.item-experience{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: 19px;
+
+}
+.highlited-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+}
+.text-style {
+    color: #FB6D3A;
+}
+
+.experience {
+    margin-bottom: 12px;
+}
+.profession {
+    margin-bottom: 11px;
+}
+.no-company {
+   margin-bottom: 8px; 
+}
+.item-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* ===EDUCATION===== */
+.section-languages {
+    padding-bottom: 100px;
+    padding-left: 40px;
+}
+
+.study {
+    margin-bottom: 12px;
+}
+.academy {
+    color: #FB6D3A;
+    margin-bottom: 11px;
+}
+
+.develop {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.duration {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.phone-number {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.phone-number:hover{
+    color:#06daff
+}
+
+.symbol {
+    margin-right: 10px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff
+}
+.email {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.email:hover {
+    color:#06daff
+}
+
+.contacts {
+    padding-top: 51px;
+    padding-left: 40px;
+    margin-bottom: 47px;
+}
+/* ============================== */
+
+/* =======SIDEBAR=========== */
+.sidebar-section {
+    padding-top: 40px;
+    background-color: #1E2939;
+    width: 370px;
+}
+
+/* ========================== */
+/* ==============TECH SkILS============= */
+.skils, .language {
+    color: #ffffff;
+    padding-left: 0px;
+    margin-left: 19px;
+}
+
+.section-skils {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.tech-title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.22;
+    color: #FFFFFF;
+}
